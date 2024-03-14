@@ -1,0 +1,66 @@
+/* Estilos gerais */
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos do formulário */
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left; /* Alinha o texto do formulário à esquerda */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); /* Ajusta o tamanho para incluir o padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="reset"],
+#Limpar {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #de3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px;
+    align-self: center;
+}
+
+input[type="submit"]:hover,
+#Limpar:hover {
+    background-color: #c23030;
+}
+
+#Enviar:hover {
+    background-color: #229c55;
+}
+
+#Enviar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px;
+    margin-bottom: 10px;
+    align-self: center;
+}
